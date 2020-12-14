@@ -4,9 +4,9 @@
 # For example:
 # './prompt "Do you want to shutdown?" "shutdown -h now"'
 
-color1 = '#000000' 
-color2 = '#A83949'
-color3 = '#465D8F'
+color1='#000000' 
+color2='#DE446A'
+color3='#9D3258'
 
 [ $(echo -e "No\nYes" | dmenu -fn 'Inconsolata Mono-10' -nb $color1 -sf $color1 -sb $color2 -nf $color3 -i -p "$1") \
 == "Yes" ] && $2

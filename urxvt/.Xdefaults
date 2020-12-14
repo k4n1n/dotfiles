@@ -32,14 +32,27 @@ URxvt*saveLines:  65535
 *color7: #a8a19f
 *color15: #f1efee
 
+
+!! URxvt Colors
+URxvt.color1: #48C19F
+URxvt.color2: #48C19F
+URxvt.color3: #48C19F
+URxvt.color4: #48C19F
+URxvt.color5: #48C19F
+URxvt.color6: #48C19F
+URxvt.color7: #48C19F
+URxvt.color8: #48C19F
+URxvt.color8: #48C19F
+URxvt.color10: #48C19F
+
 URxvt.intensityStyles:	false
 URxvt.background:       [95]#000000
 URxvt.depth:		32
 URxvt.font: 		xft:inconsolata:size=13
 URxvt.scrollBar:	false
 URxvt.cursorColor:	#DE446A
-#URxvt.transparent: 	true
-#URxvt.shading:		10
+!!URxvt.transparent: 	true
+!!URxvt.shading:		10
 URxvt*cursorUnderline:      false
 !! Extensions
 URxvt.perl-ext-common:	default,matcher,resize-font,url-select,keyboard-select
