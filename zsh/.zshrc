@@ -17,8 +17,8 @@ bindkey -e
 # End of lines configured by zsh-newuser-install
 
 # Prompt
-PS1='%F{197}%T%F{32} %M: %n %F{8}%~
-%F{32}%B> %b%F{197}'
+PS1='%F{34}╔ %T%F{34} %M ‡ %n %F{34}%~
+%F{40}%B╙••• %b%F{46}'
 
 #inicio
 bindkey "^[[7~"	beginning-of-line

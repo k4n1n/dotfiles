@@ -1,7 +1,7 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
 syntax on
-colorscheme sky
+colorscheme green
 hi Normal guibg=NONE ctermbg=NONE
 set number
 set mouse=r
