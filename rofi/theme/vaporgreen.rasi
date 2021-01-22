@@ -1,0 +1,65 @@
+configuration {
+  display-run: ":: ";
+  display-drun: ":: ";
+  display-window: ":: ";
+  drun-display-format: "{name}";
+  font: "Inconsolata 10";
+  modi: "window,run,drun";
+  show-icons: false;
+}
+
+* {
+
+  bg: #000000;
+  bg-alt: #95C7A8;
+
+  fg: #9578C3;
+  fg-alt: #FFFFFF;
+  background-color: #00000050;
+  border-radius: 5px 5px 5px 5px; 
+  border: 0;
+  margin: 0;
+  padding: 0;
+  spacing: 0;
+}
+
+element {
+  padding: 12;
+  orientation: vertical;
+  text-color: @bg-alt;
+}
+
+element selected {
+  text-color: @fg;
+}
+
+entry {
+  padding: 12 0 12 3;
+  text-color: @fg;
+}
+
+inputbar {
+  children: [prompt, entry];
+}
+
+listview {
+  columns: 1;
+  lines: 5;
+}
+
+mainbox {
+  children: [inputbar, listview];
+}
+
+prompt {
+  padding: 12 0 0 12;
+  text-color: @fg;
+}
+
+window {
+  transparency: "real";
+  border: 2px;
+  border-color: #9578C3;
+}
+
+
