@@ -5,8 +5,8 @@
 # './prompt "Do you want to shutdown?" "shutdown -h now"'
 
 color1='#000000' 
-color2='#95C7A8'
-color3='#7C77C2'
+color2='#EF4A03'
+color3='#EF4A03'
 
 [ $(echo -e "No\nYes" | dmenu -fn 'Inconsolata Mono-11' -nb $color1 -sf $color1 -sb $color2 -nf $color3 -i -p "$1") \
 == "Yes" ] && $2

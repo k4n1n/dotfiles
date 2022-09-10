@@ -1,8 +1,8 @@
-*foreground: #0100FE
-*foreground_bold: #0B01D0
-*cursor: #DE446A
-*background:       #000000
-URxvt.borderColor: #95C7A8
+*foreground:		#D61c04
+*foreground_bold:	#A11408
+*cursor:	 	#EF4A03
+*background:     	#000000
+URxvt.borderColor: 	#EF4A03
 URxvt.internalBorder: 5
 URxvt*saveLines:  65535
 !!*background: rgba(0, 0, 0, .7)
@@ -26,10 +26,10 @@ URxvt*saveLines:  65535
 *color5: #6666ea
 *color13: #6666ea
 !! cyan
-*color6: #00ad9c
+*color6: #000000
 *color14: #00ad9c
 !! white
-*color7: #a8a19f
+*color7: #000000
 *color15: #f1efee
 
 
@@ -46,17 +46,18 @@ URxvt.color8: #48C19F
 URxvt.color10: #48C19F
 
 URxvt.intensityStyles:	false
-URxvt.background:       [95]#000000
+URxvt.background:       [100]#000000
 URxvt.depth:		32
-URxvt.font: 		xft:inconsolata:size=13
+URxvt.font: 		xft:inconsolata:size=15
 URxvt.scrollBar:	false
-URxvt.cursorColor:	#7B9AA9
+URxvt.cursorColor:	#ED2F02
 !!URxvt.transparent: 	true
 !!URxvt.shading:		10
-URxvt*cursorUnderline:      false
+URxvt*cursorUnderline:	true
+URxvt*cursorBlink:	false
 !! Extensions
 URxvt.perl-ext-common:	default,matcher,resize-font,url-select,keyboard-select
-URxvt.colorUL:		#48C19F
+URxvt.colorUL:		#D7714F
 !! url-select
 URxvt.keysym.M-u:	perl:url-select:select_next
 URxvt.url-select.launcher: linkhandler

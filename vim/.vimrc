@@ -1,7 +1,8 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
 syntax on
-colorscheme green
+packadd! dracula
+colorscheme molotov
 hi Normal guibg=NONE ctermbg=NONE
 set number
 set mouse=r
